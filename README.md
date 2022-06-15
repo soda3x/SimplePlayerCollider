@@ -11,3 +11,7 @@ This basic Unity project demonstrates an example of using the  `OnCollisionEnter
 The 'Player' in this project has the `PlayerCollisionController` script which allows the configuration of which Colliders should be ignored and which should be acted on via the colliding object's `tag`.
 
 In the example, the car drives toward its goal, the flag, and will collide with the 'human' on its way.
+
+## Licence
+
+Just use it :)
