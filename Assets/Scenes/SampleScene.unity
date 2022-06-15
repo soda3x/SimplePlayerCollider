@@ -213,9 +213,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 126071798}
-  - component: {fileID: 126071797}
   - component: {fileID: 126071800}
   - component: {fileID: 126071799}
+  - component: {fileID: 126071797}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -900,8 +900,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1601141107}
   - component: {fileID: 1601141109}
-  - component: {fileID: 1601141108}
   - component: {fileID: 1601141110}
+  - component: {fileID: 1601141108}
   m_Layer: 0
   m_Name: Car
   m_TagString: Car
