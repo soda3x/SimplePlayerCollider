@@ -1,6 +1,6 @@
 # SimplePlayerCollider
 
-Example Unity project showing how OnCollisionEnter can be used with GameObject tags.
+Unity project showing how OnCollisionEnter and OverlapSphere can be used with GameObject tags.
 
 !["Screenshot"](https://github.com/soda3x/SimplePlayerCollider/blob/cc1da1e269b4a8a4a15c9187b8093caad34e5923/screenshot.png)
   
