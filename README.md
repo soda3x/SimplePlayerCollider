@@ -6,11 +6,23 @@ Example Unity project showing how OnCollisionEnter can be used with GameObject t
   
 ## Usage
 
-This basic Unity project demonstrates an example of using the  `OnCollisionEnter()` method.
+This repo contains two different scripts for handling collision.
 
-The 'Player' in this project has the `PlayerCollisionController` script which allows the configuration of which Colliders should be ignored and which should be acted on via the colliding object's `tag`.
+### PlayerCollisionController and ColliderScene
+
+This basic Unity project demonstrates an example of using the `OnCollisionEnter` method.
+
+The 'Player' in this scene has the `PlayerCollisionController` script which allows the configuration of which Colliders should be ignored and which should be acted on via the colliding object's `tag`.
 
 In the example, the car drives toward its goal, the flag, and will collide with the 'human' on its way.
+
+### PlayerRaycastController and RaycastScene
+
+This basic Unity project demonstrates an example of using the `Physics.OverlapSphere` method.
+
+The 'Player' in this scene has the `PlayerRaycastController` script which allows the configuration of which Colliders should be ignored and which should be acted on via the colliding object's `tag`.
+
+The difference between this script and the `PlayerCollisionController` script is that this script allows collision detection without requiring a rigidbody.
 
 ## Licence
 
